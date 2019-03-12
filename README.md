@@ -12,7 +12,7 @@ testing part with Mocha framework.
 
 this project consists in a simple Smart contract, that handles some logic regarding an online lottery game. In order to participate in this game, a specific user needs to pay a certain amount of Ether (about 1 ether, but there is a minimun), then a payable funcion is invoked and that user can enter the game. Of course, those ethers are now part of the Smart contract balance (and you can access the Smart contract address to get the total balance, depending on the amount of users participating). 
 
-"ALL INTEREACTIONS THAT CHANGE THE STRUCTURE OF A CONTRACT COSTS SOME AMOUNT OF ETHER"
+"ALL INTEREACTIONS THAT CHANGE THE STRUCTURE OF A CONTRACT COST SOME AMOUNT OF ETHER". But if you only want to get data, you won't need to pay ether.
 
 All users are stored in an array of type address, and another function will randomly pick a winner and transer it the total balance collected in the game.
 
