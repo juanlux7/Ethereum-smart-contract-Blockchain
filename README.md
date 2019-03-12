@@ -12,6 +12,8 @@ testing part with Mocha framework.
 
 this project consists in a simple Smart contract, that handles some logic regarding an online lottery game. In order to participate in this game, a specific user needs to pay a certain amount of Ether (about 1 ether, but there is a minimun), then a payable funcion is invoked and that user can enter the game. Of course, those ethers are now part of the Smart contract balance (and you can access the Smart contract address to get the total balance, depending on the amount of users participating). 
 
+"ALL INTEREACTIONS THAT CHANGE THE STRUCTURE OF A CONTRACT COSTS SOME AMOUNT OF ETHER"
+
 All users are stored in an array of type address, and another function will randomly pick a winner and transer it the total balance collected in the game.
 
 Of course, this smart contract has a manager, who is the person that initially deployed the contract, spending some gas in the process (a bit of Wei to be more precise). This manager is initialized in the constructor, and only this manager can call the pickwinner funciton.
