@@ -1,4 +1,7 @@
-# Ethereum-smart-contract-Blockchain Dapp
+# Ethereum smart contract | Blockchain Dapp with Solidity
+
+![alt text](https://user-images.githubusercontent.com/40801686/54182923-27d2df80-44a3-11e9-9e6b-8efbc93fd278.jpg)
+
 A Decentralized Application with Solidity, Javascript and ReactJS. This is a simple lottery game with a couple of interesting functions,
 testing part with Mocha framework.
 
