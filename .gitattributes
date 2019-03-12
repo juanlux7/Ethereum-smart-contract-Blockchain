@@ -1,2 +1,5 @@
 
 *.sol linguist-language=Solidity
+
+test/* linguist-vendored
+
