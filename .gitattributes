@@ -1,0 +1,3 @@
+compile.js linguist-vendored
+deploy.js linguist-vendored
+test/* linguist-vendored
