@@ -3,7 +3,7 @@ const Web3 = require("web3");
 const { interface, bytecode } = require("./compile");
 
 const provider = new HdWalletProvider(
-  "napkin grape erode divorce sibling fish gift caution crucial pass luggage hen",
+  "you secret key wallet",
   "https://rinkeby.infura.io/v3/c59a796db2504e33bada752b80ffe89d"
 );
 
